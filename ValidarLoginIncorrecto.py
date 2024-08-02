@@ -22,7 +22,7 @@ driver.maximize_window()
 
 # Ubicar campo correo e ingresar campos
 mail=driver.find_element(By.XPATH, "//input[contains(@id,'email')]").send_keys("vjhons299@gmail.com")
-passw=driver.find_element(By.XPATH, "//input[contains(@id,'password')]").send_keys("Yaxo8145")
+passw=driver.find_element(By.XPATH, "//input[contains(@id,'password')]").send_keys("Yaxo814")
 btn_sign=driver.find_element(By.XPATH, "//button[@type='submit'][contains(.,'Sign in')]")
 btn_sign.click()
 
